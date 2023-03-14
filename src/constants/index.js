@@ -18,8 +18,8 @@ import {
   tcs,
   thoughtflow,
   nascompany,
-  carrent,
-  jobit,
+  codex,
+  dalle2,
   tripguide,
   threejs,
 } from "../assets";
@@ -41,20 +41,20 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
-    icon: web,
-  },
-  {
-    title: "Infrastructure Developer",
-    icon: mobile,
-  },
-  {
     title: "Backend Developer",
     icon: backend,
   },
   {
     title: "Full Stack Developer",
     icon: creator,
+  },
+  {
+    title: "Infrastructure Developer",
+    icon: mobile,
+  },
+  {
+    title: "Web Developer",
+    icon: web,
   },
 ];
 
@@ -164,7 +164,7 @@ const testimonials = [
   },
   {
     testimonial:
-      "No matter what the task was, he would jump at every opportunity or requirement and stop at nothing to deliver a high quality solution in the required time.",
+      "He is hands down one of the most dedicated people I have met in my life. No matter what the task was, he would jump at every opportunity or requirement and stop at nothing to deliver a high quality solution in the required time. He is also very quick to pickup any new concepts or skills as required.",
     name: "Neil Beukes",
     designation: "Senior Software Engineer",
     company: "Nas Company",
@@ -173,7 +173,7 @@ const testimonials = [
   },
   {
     testimonial:
-      "He is a great back end engineer with a product oriented mindset. Often I found him giving valuable feedback on the product during development that helped us catch something that we missed on the product.",
+      "He is a great back end engineer with a product oriented mindset. Often I found him giving valuable feedback on the product during development that helped us catch something that we missed on the product. He documents and communicates his work in an easy to understand manner.",
     name: "Aditya Purwa",
     designation: "Former Senior Frontend Engineer",
     company: "Nas Company",
@@ -190,7 +190,7 @@ const testimonials = [
   },
   {
     testimonial:
-      "Shubhashish consistently demonstrated a strong work ethic and the ability to effectively communicate and collaborate with cross-functional teams. He consistently delivered high-quality code and on time",
+      "Shubhashish consistently demonstrated a strong work ethic and the ability to effectively communicate and collaborate with cross-functional teams. He consistently delivered high-quality code and on time. I highly recommend Shubhashish for any future software engineering opportunities and I am confident he will make a valuable contribution to any organization.",
     name: "Aleksandar Bulović",
     designation: "Founder & CEO",
     company: "Cluster 11",
@@ -209,48 +209,48 @@ const testimonials = [
 ];
 
 const projects = [
-  // {
-  //   name: "Car Rent",
-  //   description:
-  //     "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
-  //   tags: [
-  //     {
-  //       name: "react",
-  //       color: "blue-text-gradient",
-  //     },
-  //     {
-  //       name: "mongodb",
-  //       color: "green-text-gradient",
-  //     },
-  //     {
-  //       name: "tailwind",
-  //       color: "pink-text-gradient",
-  //     },
-  //   ],
-  //   image: carrent,
-  //   source_code_link: "https://github.com/",
-  // },
-  // {
-  //   name: "Job IT",
-  //   description:
-  //     "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-  //   tags: [
-  //     {
-  //       name: "react",
-  //       color: "blue-text-gradient",
-  //     },
-  //     {
-  //       name: "restapi",
-  //       color: "green-text-gradient",
-  //     },
-  //     {
-  //       name: "scss",
-  //       color: "pink-text-gradient",
-  //     },
-  //   ],
-  //   image: jobit,
-  //   source_code_link: "https://github.com/",
-  // },
+  {
+    name: "Codex: A ChatGPT Clone",
+    description:
+      "Full Stack Web App chatbot platform that allows users to ask questions, providing a suitable answer using OpenAI's GPT-3 API.",
+    tags: [
+      {
+        name: "vanilla-js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "express",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "nodejs",
+        color: "green-text-gradient",
+      },
+    ],
+    image: codex,
+    source_code_link: "https://github.com/svashish305/codex",
+  },
+  {
+    name: "DALL-E 2.0",
+    description:
+      "Full Stack MERN app enabling users to generate prompt based AI images and share them using OpenAI's GPT-3 API.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "green-text-gradient",
+      },
+    ],
+    image: dalle2,
+    source_code_link: "https://github.com/svashish305/dall-e",
+  },
   // {
   //   name: "Trip Guide",
   //   description:

@@ -25,9 +25,9 @@ import tcs from "./company/tcs.png";
 import thoughtflow from "./company/thoughtflow.png";
 import nascompany from "./company/nascompany.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import codex from "./codex.png";
+import dalle2 from "./dalle2.png";
 
 export {
   logo,
@@ -54,7 +54,7 @@ export {
   tcs,
   thoughtflow,
   nascompany,
-  carrent,
-  jobit,
   tripguide,
+  codex,
+  dalle2,
 };
