@@ -1,3 +1,18 @@
+# Deploy Steps:
+### 1. Without using gh-pages
+```
+npm run build
+git add .
+git commit -m "updated dist"
+git subtree push --prefix dist origin gh-pages
+```
+
+### 2. Using gh-pages
+```
+npm run build
+npm run deploy
+```
+
 # Inspiration:
 # Build and Deploy a Fantastic 3D Portfolio Website with Three.js and React.js
 ![3D Portfolio](https://i.ibb.co/9ykhLtM/Thumbnail.png)
