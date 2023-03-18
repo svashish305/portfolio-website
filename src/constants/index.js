@@ -155,6 +155,14 @@ const experiences = [
 
 const testimonials = [
   {
+    testimonial: `I had the pleasure of working with SV, an exceptional backend software developer. SV consistently demonstrated deep technical expertise and always prioritized scalability and performance to deliver high-quality work. Beyond that, SV was a smart, empathetic, and dedicated team player who always went above and beyond to help others. It was a pleasure collaborating with him and working on multiple significant features such as post reactions and commenting features, a content management portal, and several performance improvements. Overall, SV is a great candidate if you are looking for a talented and reliable developer.`,
+    name: "Jasbindar Singh",
+    designation: "Frontend Engineer",
+    company: "Nas Company",
+    image:
+      "https://media.licdn.com/dms/image/C4D03AQEUntxQy1dBZg/profile-displayphoto-shrink_100_100/0/1613975550586?e=1684368000&v=beta&t=Opt2s0Nn6N9ABGCGHZ6hzMi2VsXMbSvZitcjkj7XPAk",
+  },
+  {
     testimonial: `Your technical expertise in designing and building complex software systems has been instrumental in delivering high-quality products to our customers. You consistently demonstrated a deep understanding of software development principles, and your attention to detail was impressive.`,
     name: "Aman Minhas",
     designation: "Engineering Manager",
