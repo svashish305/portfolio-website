@@ -20,7 +20,7 @@ import {
   nascompany,
   codex,
   dalle2,
-  tripguide,
+  financeapp,
   threejs,
 } from "../assets";
 
@@ -259,27 +259,26 @@ const projects = [
     image: dalle2,
     source_code_link: "https://github.com/svashish305/dall-e",
   },
-  // {
-  //   name: "Trip Guide",
-  //   description:
-  //     "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-  //   tags: [
-  //     {
-  //       name: "nextjs",
-  //       color: "blue-text-gradient",
-  //     },
-  //     {
-  //       name: "supabase",
-  //       color: "green-text-gradient",
-  //     },
-  //     {
-  //       name: "css",
-  //       color: "pink-text-gradient",
-  //     },
-  //   ],
-  //   image: tripguide,
-  //   source_code_link: "https://github.com/",
-  // },
+  {
+    name: "Finance App",
+    description: `Full Stack MERN app to show finance dashboard and allows user to predict next year's data`,
+    tags: [
+      {
+        name: "reactjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "material-ui",
+        color: "green-text-gradient",
+      },
+      {
+        name: "regression-js",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: financeapp,
+    source_code_link: "https://github.com/svashish305/finance-app",
+  },
 ];
 
 export { services, technologies, experiences, testimonials, projects };

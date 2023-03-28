@@ -25,9 +25,9 @@ import tcs from "./company/tcs.png";
 import thoughtflow from "./company/thoughtflow.png";
 import nascompany from "./company/nascompany.png";
 
-import tripguide from "./tripguide.png";
 import codex from "./codex.png";
 import dalle2 from "./dalle2.png";
+import financeapp from "./financeapp.png";
 
 export {
   logo,
@@ -54,7 +54,7 @@ export {
   tcs,
   thoughtflow,
   nascompany,
-  tripguide,
   codex,
   dalle2,
+  financeapp,
 };
