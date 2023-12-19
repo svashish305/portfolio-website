@@ -18,6 +18,7 @@ import {
   tcs,
   thoughtflow,
   nascompany,
+  hyno,
   codex,
   dalle2,
   financeapp,
@@ -114,6 +115,18 @@ const technologies = [
 ];
 
 const experiences = [
+  {
+    title: "Senior Software Engineer",
+    company_name: "Hyno",
+    icon: nascompany,
+    iconBg: "#383E56",
+    date: "Jul 2023 - Present",
+    points: [
+      "Developed several critical APIs for Forta Health, enhancing system functionality and user interaction",
+      "Optimized overlapping database queries, resulting in improved system performance and efficiency",
+      "Implemented various backend optimizations, contributing significantly to a more robust and streamlined backend infrastructure",
+    ],
+  },
   {
     title: "Software Engineer - Backend",
     company_name: "Nas Company",
