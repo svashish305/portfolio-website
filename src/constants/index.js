@@ -118,7 +118,7 @@ const experiences = [
   {
     title: "Senior Software Engineer",
     company_name: "Hyno",
-    icon: nascompany,
+    icon: hyno,
     iconBg: "#383E56",
     date: "Jul 2023 - Present",
     points: [
