@@ -24,6 +24,7 @@ import threejs from "./tech/threejs.svg";
 import tcs from "./company/tcs.png";
 import thoughtflow from "./company/thoughtflow.png";
 import nascompany from "./company/nascompany.png";
+import hyno from "./company/hyno.png";
 
 import codex from "./codex.png";
 import dalle2 from "./dalle2.png";
@@ -54,6 +55,7 @@ export {
   tcs,
   thoughtflow,
   nascompany,
+  hyno,
   codex,
   dalle2,
   financeapp,
