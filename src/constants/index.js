@@ -19,8 +19,8 @@ import {
   thoughtflow,
   nascompany,
   hyno,
-  codex,
-  dalle2,
+  evently,
+  bookingapp,
   financeapp,
   threejs,
 } from "../assets";
@@ -168,12 +168,28 @@ const experiences = [
 
 const testimonials = [
   {
+    testimonial: `I had the pleasure of working closely with Shubhashish and always been impressed by his exceptional responsiveness. He is proactive and efficient individual who consistently goes above and beyond to ensure timely solutions are provided. As a QA Engineer I was always happy with the quality of work he delivered. Shubhashish will be a great asset to any team that he joins, keep up the good work and all the best in your future endeavours.`,
+    name: "Tarun Vadamodula",
+    designation: "QA Engineer",
+    company: "Nas Company",
+    image:
+      "https://media.licdn.com/dms/image/D5635AQHOhPqWSa7keA/profile-framedphoto-shrink_100_100/0/1681466512525?e=1707580800&v=beta&t=xSaVjt4YYIWBiQkGzZqjuCDgar2cPdOVm0t6bkZzAb8",
+  },
+  {
+    testimonial: `Shubhashish has exhibited excellent value and speed during our work together in the company, especially during our time in Launch Operations. He is very detail-oriented, and kind enough to help us understand what triggers the error and what makes it go away. He's a great asset to any company, and I'm lucky to not only have worked with him but also to have learned from him.`,
+    name: "Alexa Dimayuga",
+    designation: "Operations Team Lead",
+    company: "Nas Company",
+    image:
+      "https://media.licdn.com/dms/image/D5603AQGxIBJfEn7F-A/profile-displayphoto-shrink_100_100/0/1695014839625?e=1712188800&v=beta&t=rvC2SVYtFBkz1l6eplCwCVM7J93cX8NDNfHmrMLwVeU",
+  },
+  {
     testimonial: `I had the pleasure of working with SV, an exceptional backend software developer. SV consistently demonstrated deep technical expertise and always prioritized scalability and performance to deliver high-quality work. Beyond that, SV was a smart, empathetic, and dedicated team player who always went above and beyond to help others. It was a pleasure collaborating with him and working on multiple significant features such as post reactions and commenting features, a content management portal, and several performance improvements. Overall, SV is a great candidate if you are looking for a talented and reliable developer.`,
     name: "Jasbindar Singh",
     designation: "Frontend Engineer",
     company: "Nas Company",
     image:
-      "https://media.licdn.com/dms/image/C4D03AQEUntxQy1dBZg/profile-displayphoto-shrink_100_100/0/1613975550586?e=1684368000&v=beta&t=Opt2s0Nn6N9ABGCGHZ6hzMi2VsXMbSvZitcjkj7XPAk",
+      "https://media.licdn.com/dms/image/C4D03AQEUntxQy1dBZg/profile-displayphoto-shrink_100_100/0/1613975551123?e=1712188800&v=beta&t=A00vky9krpei7buIfh1cXHzb1JZPdkBcXedZ9aFZjaQ",
   },
   {
     testimonial: `Your technical expertise in designing and building complex software systems has been instrumental in delivering high-quality products to our customers. You consistently demonstrated a deep understanding of software development principles, and your attention to detail was impressive.`,
@@ -181,7 +197,7 @@ const testimonials = [
     designation: "Engineering Manager",
     company: "Nas Company",
     image:
-      "https://media.licdn.com/dms/image/C4E03AQFTW-6_JDZmVw/profile-displayphoto-shrink_100_100/0/1601474470599?e=1683763200&v=beta&t=8dV4WC30DqYJRr-r99ZluoZUxSZqqiX8HSjCp_2x9YA",
+      "https://media.licdn.com/dms/image/C4E03AQFTW-6_JDZmVw/profile-displayphoto-shrink_100_100/0/1601474472210?e=1712188800&v=beta&t=nqtcV8Dad9SuaLUgMFPppH7OAWTNB2Kl33nAPRV7j4Q",
   },
   {
     testimonial:
@@ -190,7 +206,7 @@ const testimonials = [
     designation: "Senior Software Engineer",
     company: "Nas Company",
     image:
-      "https://media.licdn.com/dms/image/C4D03AQGeLotx9inbpQ/profile-displayphoto-shrink_100_100/0/1573713346341?e=1683763200&v=beta&t=ct0_2aojuuWT0wK9KBA_A5AChBBKqEfm0t3NPvn5TKY",
+      "https://media.licdn.com/dms/image/C4D03AQGeLotx9inbpQ/profile-displayphoto-shrink_100_100/0/1573713350974?e=1712188800&v=beta&t=xzF0TDVTEc0fmRjEWEcEMTQdqxlGWeGHLZ4nF3XYCDI",
   },
   {
     testimonial:
@@ -199,7 +215,7 @@ const testimonials = [
     designation: "Former Senior Frontend Engineer",
     company: "Nas Company",
     image:
-      "https://media.licdn.com/dms/image/C4D03AQHdFCyIuBhulA/profile-displayphoto-shrink_100_100/0/1612976386007?e=1683763200&v=beta&t=plaZ6FN-hrnMsdq27bk2lgFWAKK_AmIJVgxgm4fMVxw",
+      "https://media.licdn.com/dms/image/C4D03AQHdFCyIuBhulA/profile-displayphoto-shrink_100_100/0/1612976386706?e=1712188800&v=beta&t=lQI5mvVuzUBsq2Gi5DiRhbzH9vrcK3w5SbyWAe4wT9A",
   },
   {
     testimonial: `He was extremely hands-on on multiple projects, setting up everything from scratch with in-depth know-how of the underlying design and decisions at work. But what stood out most with Shubh was his work ethic, commitment and dependability. Be it the smallest question or handling critical downtimes, he was always available to contribute and solve.`,
@@ -207,7 +223,7 @@ const testimonials = [
     designation: "Former Data Team Lead",
     company: "Nas Company",
     image:
-      "https://media.licdn.com/dms/image/C5603AQHJW_0QvterpA/profile-displayphoto-shrink_100_100/0/1657658749843?e=1683763200&v=beta&t=YXkw-7nuH32NPlJTQHFSHWPjGpswVhOKjGaZaRDwFqU",
+      "https://media.licdn.com/dms/image/C5603AQHJW_0QvterpA/profile-displayphoto-shrink_100_100/0/1657658750288?e=1712188800&v=beta&t=slVcEpIz_7_KuYlr8b-zEM-YwZekyyahEIdONQwt-zU",
   },
   {
     testimonial:
@@ -216,7 +232,7 @@ const testimonials = [
     designation: "Founder & CEO",
     company: "Cluster 11",
     image:
-      "https://media.licdn.com/dms/image/D4D03AQFKs9205_jN4g/profile-displayphoto-shrink_100_100/0/1674325585158?e=1683763200&v=beta&t=nWpqFdPsn5OZ8TTIG6CHkLkLQKXIfDbS0c9nPZxo0dA",
+      "https://media.licdn.com/dms/image/D4D03AQHkEL-zHYsbOQ/profile-displayphoto-shrink_100_100/0/1682031095832?e=1712188800&v=beta&t=s-p_jjZ73wfGXdctWlyMM-hCpO1kMMXXyyzbJbU38z0",
   },
   {
     testimonial:
@@ -225,36 +241,15 @@ const testimonials = [
     designation: "Founder & CEO",
     company: "Thoughtflow",
     image:
-      "https://media.licdn.com/dms/image/C5603AQH3P8SrWhIaXw/profile-displayphoto-shrink_100_100/0/1588664235194?e=1683763200&v=beta&t=9Fp58pyV-WQESOkl_9Kt6qvpvdZUSdwtIWjCCPULjb0",
+      "https://media.licdn.com/dms/image/C5603AQH3P8SrWhIaXw/profile-displayphoto-shrink_100_100/0/1588664235962?e=1712188800&v=beta&t=NweeoAznenkwzUyNVl7DLkJOdE_nwwC1LSmqQ7np5dA",
   },
 ];
 
 const projects = [
   {
-    name: "Codex: A ChatGPT Clone",
+    name: "Evently",
     description:
-      "Full Stack Web App chatbot platform that allows users to ask questions, providing a suitable answer using OpenAI's GPT-3 API.",
-    tags: [
-      {
-        name: "vanilla-js",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "express",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "nodejs",
-        color: "green-text-gradient",
-      },
-    ],
-    image: codex,
-    source_code_link: "https://github.com/svashish305/codex",
-  },
-  {
-    name: "DALL-E 2.0",
-    description:
-      "Full Stack MERN app enabling users to generate prompt based AI images and share them using OpenAI's GPT-3 API.",
+      "Full Stack Web App event management app allowing users to book and checkout events",
     tags: [
       {
         name: "react",
@@ -265,12 +260,49 @@ const projects = [
         color: "pink-text-gradient",
       },
       {
+        name: "express",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "nodejs",
+        color: "green-text-gradient",
+      },
+      {
         name: "mongodb",
         color: "green-text-gradient",
       },
     ],
-    image: dalle2,
-    source_code_link: "https://github.com/svashish305/dall-e",
+    image: evently,
+    source_code_link: "https://github.com/svashish305/evently",
+  },
+  {
+    name: "Booking App",
+    description:
+      "Full Stack MERN app enabling users to book and checkout hotels",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "express",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "nodejs",
+        color: "green-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "green-text-gradient",
+      },
+    ],
+    image: bookingapp,
+    source_code_link: "https://github.com/svashish305/mern-booking-app",
   },
   {
     name: "Finance App",
