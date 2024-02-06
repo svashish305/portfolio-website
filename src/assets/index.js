@@ -29,6 +29,7 @@ import hyno from "./company/hyno.png";
 import evently from "./evently.png";
 import bookingapp from "./booking-app.png";
 import financeapp from "./financeapp.png";
+import figmaclone from "./figma-clone.png";
 
 export {
   logo,
@@ -59,4 +60,5 @@ export {
   evently,
   bookingapp,
   financeapp,
+	figmaclone,
 };

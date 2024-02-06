@@ -15,6 +15,7 @@ import {
   git,
   figma,
   docker,
+  threejs,
   tcs,
   thoughtflow,
   nascompany,
@@ -22,7 +23,7 @@ import {
   evently,
   bookingapp,
   financeapp,
-  threejs,
+	figmaclone
 } from "../assets";
 
 export const navLinks = [
@@ -303,6 +304,23 @@ const projects = [
     ],
     image: bookingapp,
     source_code_link: "https://github.com/svashish305/mern-booking-app",
+  },
+	{
+    name: "Figma Clone",
+    description:
+      "A minimalist figma clone using Fabric.js and Liveblocks for real-time collaboration",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: figmaclone,
+    source_code_link: "https://github.com/svashish305/liveblocks_figma_clone",
   },
   {
     name: "Finance App",
