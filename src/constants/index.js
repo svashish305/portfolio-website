@@ -1,121 +1,114 @@
+import { tcs, thoughtflow, nascompany, hyno } from "../assets/images";
 import {
-  mobile,
-  backend,
-  creator,
-  web,
-  javascript,
-  typescript,
-  html,
+  contact,
   css,
-  reactjs,
-  redux,
-  tailwind,
-  nodejs,
-  mongodb,
+  express,
   git,
-  figma,
-  docker,
-  threejs,
-  tcs,
-  thoughtflow,
-  nascompany,
-  hyno,
+  github,
+  html,
+  javascript,
+  linkedin,
+	twitter,
+  mongodb,
+  motion,
+  mui,
+  nextjs,
+  nodejs,
+  react,
+  redux,
+  sass,
+  tailwindcss,
+  typescript,
   evently,
   bookingapp,
+  figmaclone,
   financeapp,
-	figmaclone
-} from "../assets";
+} from "../assets/icons";
 
-export const navLinks = [
+export const skills = [
   {
-    id: "about",
-    title: "About",
+    imageUrl: css,
+    name: "CSS",
+    type: "Frontend",
   },
   {
-    id: "work",
-    title: "Work",
+    imageUrl: express,
+    name: "Express",
+    type: "Backend",
   },
   {
-    id: "contact",
-    title: "Contact",
-  },
-];
-
-const services = [
-  {
-    title: "Backend Developer",
-    icon: backend,
+    imageUrl: git,
+    name: "Git",
+    type: "Version Control",
   },
   {
-    title: "Full Stack Developer",
-    icon: creator,
+    imageUrl: github,
+    name: "GitHub",
+    type: "Version Control",
   },
   {
-    title: "Infrastructure Developer",
-    icon: mobile,
+    imageUrl: html,
+    name: "HTML",
+    type: "Frontend",
   },
   {
-    title: "Web Developer",
-    icon: web,
-  },
-];
-
-const technologies = [
-  {
-    name: "HTML 5",
-    icon: html,
-  },
-  {
-    name: "CSS 3",
-    icon: css,
-  },
-  {
+    imageUrl: javascript,
     name: "JavaScript",
-    icon: javascript,
+    type: "Frontend",
   },
   {
-    name: "TypeScript",
-    icon: typescript,
-  },
-  {
-    name: "React JS",
-    icon: reactjs,
-  },
-  {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
-  {
-    name: "Tailwind CSS",
-    icon: tailwind,
-  },
-  {
-    name: "Node JS",
-    icon: nodejs,
-  },
-  {
+    imageUrl: mongodb,
     name: "MongoDB",
-    icon: mongodb,
+    type: "Database",
   },
   {
-    name: "Three JS",
-    icon: threejs,
+    imageUrl: motion,
+    name: "Motion",
+    type: "Animation",
   },
   {
-    name: "git",
-    icon: git,
+    imageUrl: mui,
+    name: "Material-UI",
+    type: "Frontend",
   },
   {
-    name: "figma",
-    icon: figma,
+    imageUrl: nextjs,
+    name: "Next.js",
+    type: "Frontend",
   },
   {
-    name: "docker",
-    icon: docker,
+    imageUrl: nodejs,
+    name: "Node.js",
+    type: "Backend",
+  },
+  {
+    imageUrl: react,
+    name: "React",
+    type: "Frontend",
+  },
+  {
+    imageUrl: redux,
+    name: "Redux",
+    type: "State Management",
+  },
+  {
+    imageUrl: sass,
+    name: "Sass",
+    type: "Frontend",
+  },
+  {
+    imageUrl: tailwindcss,
+    name: "Tailwind CSS",
+    type: "Frontend",
+  },
+  {
+    imageUrl: typescript,
+    name: "TypeScript",
+    type: "Frontend",
   },
 ];
 
-const experiences = [
+export const experiences = [
   {
     title: "Senior Software Engineer",
     company_name: "Hyno",
@@ -167,181 +160,59 @@ const experiences = [
   },
 ];
 
-const testimonials = [
+export const socialLinks = [
   {
-    testimonial: `I had the pleasure of working closely with Shubhashish and always been impressed by his exceptional responsiveness. He is proactive and efficient individual who consistently goes above and beyond to ensure timely solutions are provided. As a QA Engineer I was always happy with the quality of work he delivered. Shubhashish will be a great asset to any team that he joins, keep up the good work and all the best in your future endeavours.`,
-    name: "Tarun Vadamodula",
-    designation: "QA Engineer",
-    company: "Nas Company",
-    image:
-      "https://media.licdn.com/dms/image/D5635AQHOhPqWSa7keA/profile-framedphoto-shrink_100_100/0/1681466512525?e=1707580800&v=beta&t=xSaVjt4YYIWBiQkGzZqjuCDgar2cPdOVm0t6bkZzAb8",
+    name: "Contact",
+    iconUrl: contact,
+    link: "/contact",
   },
   {
-    testimonial: `Shubhashish has exhibited excellent value and speed during our work together in the company, especially during our time in Launch Operations. He is very detail-oriented, and kind enough to help us understand what triggers the error and what makes it go away. He's a great asset to any company, and I'm lucky to not only have worked with him but also to have learned from him.`,
-    name: "Alexa Dimayuga",
-    designation: "Operations Team Lead",
-    company: "Nas Company",
-    image:
-      "https://media.licdn.com/dms/image/D5603AQGxIBJfEn7F-A/profile-displayphoto-shrink_100_100/0/1695014839625?e=1712188800&v=beta&t=rvC2SVYtFBkz1l6eplCwCVM7J93cX8NDNfHmrMLwVeU",
+    name: "GitHub",
+    iconUrl: github,
+    link: "https://github.com/svashish305",
   },
   {
-    testimonial: `I had the pleasure of working with SV, an exceptional backend software developer. SV consistently demonstrated deep technical expertise and always prioritized scalability and performance to deliver high-quality work. Beyond that, SV was a smart, empathetic, and dedicated team player who always went above and beyond to help others. It was a pleasure collaborating with him and working on multiple significant features such as post reactions and commenting features, a content management portal, and several performance improvements. Overall, SV is a great candidate if you are looking for a talented and reliable developer.`,
-    name: "Jasbindar Singh",
-    designation: "Frontend Engineer",
-    company: "Nas Company",
-    image:
-      "https://media.licdn.com/dms/image/C4D03AQEUntxQy1dBZg/profile-displayphoto-shrink_100_100/0/1613975551123?e=1712188800&v=beta&t=A00vky9krpei7buIfh1cXHzb1JZPdkBcXedZ9aFZjaQ",
-  },
-  {
-    testimonial: `Your technical expertise in designing and building complex software systems has been instrumental in delivering high-quality products to our customers. You consistently demonstrated a deep understanding of software development principles, and your attention to detail was impressive.`,
-    name: "Aman Minhas",
-    designation: "Engineering Manager",
-    company: "Nas Company",
-    image:
-      "https://media.licdn.com/dms/image/C4E03AQFTW-6_JDZmVw/profile-displayphoto-shrink_100_100/0/1601474472210?e=1712188800&v=beta&t=nqtcV8Dad9SuaLUgMFPppH7OAWTNB2Kl33nAPRV7j4Q",
-  },
-  {
-    testimonial:
-      "He is hands down one of the most dedicated people I have met in my life. No matter what the task was, he would jump at every opportunity or requirement and stop at nothing to deliver a high quality solution in the required time. He is also very quick to pickup any new concepts or skills as required.",
-    name: "Neil Beukes",
-    designation: "Senior Software Engineer",
-    company: "Nas Company",
-    image:
-      "https://media.licdn.com/dms/image/C4D03AQGeLotx9inbpQ/profile-displayphoto-shrink_100_100/0/1573713350974?e=1712188800&v=beta&t=xzF0TDVTEc0fmRjEWEcEMTQdqxlGWeGHLZ4nF3XYCDI",
-  },
-  {
-    testimonial:
-      "He is a great back end engineer with a product oriented mindset. Often I found him giving valuable feedback on the product during development that helped us catch something that we missed on the product. He documents and communicates his work in an easy to understand manner.",
-    name: "Aditya Purwa",
-    designation: "Former Senior Frontend Engineer",
-    company: "Nas Company",
-    image:
-      "https://media.licdn.com/dms/image/C4D03AQHdFCyIuBhulA/profile-displayphoto-shrink_100_100/0/1612976386706?e=1712188800&v=beta&t=lQI5mvVuzUBsq2Gi5DiRhbzH9vrcK3w5SbyWAe4wT9A",
-  },
-  {
-    testimonial: `He was extremely hands-on on multiple projects, setting up everything from scratch with in-depth know-how of the underlying design and decisions at work. But what stood out most with Shubh was his work ethic, commitment and dependability. Be it the smallest question or handling critical downtimes, he was always available to contribute and solve.`,
-    name: "Akshata Mohanty",
-    designation: "Former Data Team Lead",
-    company: "Nas Company",
-    image:
-      "https://media.licdn.com/dms/image/C5603AQHJW_0QvterpA/profile-displayphoto-shrink_100_100/0/1657658750288?e=1712188800&v=beta&t=slVcEpIz_7_KuYlr8b-zEM-YwZekyyahEIdONQwt-zU",
-  },
-  {
-    testimonial:
-      "Shubhashish consistently demonstrated a strong work ethic and the ability to effectively communicate and collaborate with cross-functional teams. He consistently delivered high-quality code and on time. I highly recommend Shubhashish for any future software engineering opportunities and I am confident he will make a valuable contribution to any organization.",
-    name: "Aleksandar Bulović",
-    designation: "Founder & CEO",
-    company: "Cluster 11",
-    image:
-      "https://media.licdn.com/dms/image/D4D03AQHkEL-zHYsbOQ/profile-displayphoto-shrink_100_100/0/1682031095832?e=1712188800&v=beta&t=s-p_jjZ73wfGXdctWlyMM-hCpO1kMMXXyyzbJbU38z0",
-  },
-  {
-    testimonial:
-      "Shubhashish is a quick learner and an expert with Javascript technologies like Angular, React and Nodejs. He would be a great asset to any development team.",
-    name: "Kranthi Kiran",
-    designation: "Founder & CEO",
-    company: "Thoughtflow",
-    image:
-      "https://media.licdn.com/dms/image/C5603AQH3P8SrWhIaXw/profile-displayphoto-shrink_100_100/0/1588664235962?e=1712188800&v=beta&t=NweeoAznenkwzUyNVl7DLkJOdE_nwwC1LSmqQ7np5dA",
-  },
-];
-
-const projects = [
-  {
-    name: "Evently",
-    description:
-      "Full Stack Web App event management app allowing users to book and checkout events",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "express",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "nodejs",
-        color: "green-text-gradient",
-      },
-      {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
-    ],
-    image: evently,
-    source_code_link: "https://github.com/svashish305/evently",
-  },
-  {
-    name: "Booking App",
-    description:
-      "Full Stack MERN app enabling users to book and checkout hotels",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "express",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "nodejs",
-        color: "green-text-gradient",
-      },
-      {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
-    ],
-    image: bookingapp,
-    source_code_link: "https://github.com/svashish305/mern-booking-app",
+    name: "LinkedIn",
+    iconUrl: linkedin,
+    link: "https://www.linkedin.com/in/shubhashish-verma96",
   },
 	{
-    name: "Figma Clone",
-    description:
-      "A minimalist figma clone using Fabric.js and Liveblocks for real-time collaboration",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: figmaclone,
-    source_code_link: "https://github.com/svashish305/liveblocks_figma_clone",
-  },
-  {
-    name: "Finance App",
-    description: `Full Stack MERN app to show finance dashboard and allows user to predict next year's data`,
-    tags: [
-      {
-        name: "reactjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "material-ui",
-        color: "green-text-gradient",
-      },
-      {
-        name: "regression-js",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: financeapp,
-    source_code_link: "https://github.com/svashish305/finance-app",
+    name: "X",
+    iconUrl: twitter,
+    link: "https://www.twitter.com/svashish305",
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export const projects = [
+  {
+    iconUrl: evently,
+    theme: "btn-back-red",
+    name: "Evently",
+    description:
+      "Full Stack Web App event management app allowing users to book and checkout events.",
+    link: "https://github.com/svashish305/evently",
+  },
+  {
+    iconUrl: bookingapp,
+    theme: "btn-back-green",
+    name: "Booking App",
+    description:
+      "Full Stack MERN app enabling users to book and checkout hotels.",
+    link: "https://github.com/svashish305/mern-booking-app",
+  },
+  {
+    iconUrl: figmaclone,
+    theme: "btn-back-blue",
+    name: "Figma Clone",
+    description:
+      "A minimalist figma clone using Fabric.js and Liveblocks for real-time collaboration.",
+    link: "https://github.com/svashish305/liveblocks_figma_clone",
+  },
+  {
+    iconUrl: financeapp,
+    theme: "btn-back-pink",
+    name: "Finance App",
+    description: `Full Stack MERN app to show finance dashboard and allows user to predict next year's data`,
+    link: "https://github.com/svashish305/finance-app",
+  },
+];
