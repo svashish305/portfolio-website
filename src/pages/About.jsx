@@ -22,7 +22,7 @@ const About = () => {
 
       <div className='mt-5 flex flex-col gap-3 text-slate-500'>
         <p>
-        With five years of experience as a remote Full-Stack Engineer based in India, I specialize in developing web and mobile applications, focusing on large-scale distributed systems and cloud technologies. Recognized among the top 1% of world-class remote senior software engineers, my work is endorsed by leading platforms such as Turing, Arc.dev, Micro1, Pro5, Works, Remotebase, Uplers, and Hyno. I am driven by a passion for innovative solutions and a commitment to technological excellence.
+        With five years of experience as a remote Full-Stack Engineer based in India, I specialize in developing web and mobile applications, focusing on large-scale distributed systems and cloud technologies. Recognized among the top 1% of world-class remote senior software engineers, my work is endorsed by leading platforms such as Turing, Arc.dev, Micro1, Hyno, Mercor, Pro5, Works, Remotebase and Uplers. I am driven by a passion for innovative solutions and a commitment to technological excellence.
 I am a generalist who can work and quickly adapt to various tech stacks, and I'm flexible with work timings to ensure maximum timezone overlap.
         </p>
       </div>
