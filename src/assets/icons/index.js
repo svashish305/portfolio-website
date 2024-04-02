@@ -24,6 +24,7 @@ import evently from "./evently.png";
 import bookingapp from "./booking-app.png";
 import figmaclone from "./figma-clone.png";
 import financeapp from "./financeapp.png";
+import zoomclone from "./zoom-clone.png";
 
 export {
   css,
@@ -52,4 +53,5 @@ export {
   bookingapp,
   figmaclone,
   financeapp,
+  zoomclone,
 };

@@ -8,7 +8,7 @@ import {
   html,
   javascript,
   linkedin,
-	twitter,
+  twitter,
   mongodb,
   motion,
   mui,
@@ -19,9 +19,10 @@ import {
   sass,
   tailwindcss,
   typescript,
-  evently,
-  bookingapp,
+  zoomclone,
   figmaclone,
+  bookingapp,
+  evently,
   financeapp,
 } from "../assets/icons";
 
@@ -176,7 +177,7 @@ export const socialLinks = [
     iconUrl: linkedin,
     link: "https://www.linkedin.com/in/shubhashish-verma96",
   },
-	{
+  {
     name: "X",
     iconUrl: twitter,
     link: "https://www.twitter.com/svashish305",
@@ -185,12 +186,13 @@ export const socialLinks = [
 
 export const projects = [
   {
-    iconUrl: evently,
-    theme: "btn-back-red",
-    name: "Evently",
+    iconUrl: zoomclone,
+    theme: "btn-back-orange",
+    name: "Zoom Clone",
     description:
-      "Full Stack Web App event management app allowing users to book and checkout events.",
-    link: "https://github.com/svashish305/evently",
+      "A minimalist zoom clone using Stream video and audio for video calling.",
+    githubLink: "https://github.com/svashish305/zoom_clone",
+    liveLink: "https://zoom-clone-snowy.vercel.app",
   },
   {
     iconUrl: bookingapp,
@@ -198,7 +200,8 @@ export const projects = [
     name: "Booking App",
     description:
       "Full Stack MERN app enabling users to book and checkout hotels.",
-    link: "https://github.com/svashish305/mern-booking-app",
+    githubLink: "https://github.com/svashish305/mern-booking-app",
+    liveLink: "https://mern-booking-app-fkg9.onrender.com",
   },
   {
     iconUrl: figmaclone,
@@ -206,13 +209,24 @@ export const projects = [
     name: "Figma Clone",
     description:
       "A minimalist figma clone using Fabric.js and Liveblocks for real-time collaboration.",
-    link: "https://github.com/svashish305/liveblocks_figma_clone",
+    githubLink: "https://github.com/svashish305/liveblocks_figma_clone",
+    liveLink: "https://liveblocks-figma-clone-six.vercel.app",
+  },
+  {
+    iconUrl: evently,
+    theme: "btn-back-red",
+    name: "Evently",
+    description:
+      "Full Stack Web App event management app allowing users to book and checkout events.",
+    githubLink: "https://github.com/svashish305/evently",
+    liveLink: "https://evently-blond-nu.vercel.app",
   },
   {
     iconUrl: financeapp,
     theme: "btn-back-pink",
     name: "Finance App",
     description: `Full Stack MERN app to show finance dashboard and allows user to predict next year's data`,
-    link: "https://github.com/svashish305/finance-app",
+    githubLink: "https://github.com/svashish305/finance-app",
+    liveLink: "https://finance-app-sooty.vercel.app",
   },
 ];
