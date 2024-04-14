@@ -25,6 +25,7 @@ import bookingapp from "./booking-app.png";
 import figmaclone from "./figma-clone.png";
 import financeapp from "./financeapp.png";
 import zoomclone from "./zoom-clone.png";
+import aora from "./aora.png";
 
 export {
   css,
@@ -54,4 +55,5 @@ export {
   figmaclone,
   financeapp,
   zoomclone,
+  aora,
 };

@@ -24,6 +24,7 @@ import {
   bookingapp,
   evently,
   financeapp,
+  aora,
 } from "../assets/icons";
 
 export const skills = [
@@ -228,5 +229,14 @@ export const projects = [
     description: `Full Stack MERN app to show finance dashboard and allows user to predict next year's data`,
     githubLink: "https://github.com/svashish305/finance-app",
     liveLink: "https://finance-app-sooty.vercel.app",
+  },
+  {
+    iconUrl: aora,
+    theme: "btn-back-yellow",
+    name: "Aora",
+    description: "A video app using React Native, Expo and Appwrite",
+    githubLink: "https://github.com/svashish305/sv_aora",
+    liveLink:
+      "https://drive.google.com/file/d/18iQ8KjzQioAFjbh5uODE0T1W7Bw3fOES/view?usp=sharing",
   },
 ];
