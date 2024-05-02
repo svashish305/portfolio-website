@@ -26,6 +26,7 @@ import figmaclone from "./figma-clone.png";
 import financeapp from "./financeapp.png";
 import zoomclone from "./zoom-clone.png";
 import aora from "./aora.png";
+import imaginify from "./imaginify.png";
 
 export {
   css,
@@ -56,4 +57,5 @@ export {
   financeapp,
   zoomclone,
   aora,
+  imaginify,
 };

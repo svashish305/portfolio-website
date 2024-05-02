@@ -25,6 +25,7 @@ import {
   evently,
   financeapp,
   aora,
+  imaginify,
 } from "../assets/icons";
 
 export const skills = [
@@ -186,6 +187,15 @@ export const socialLinks = [
 ];
 
 export const projects = [
+  {
+    iconUrl: imaginify,
+    theme: "btn-back-black",
+    name: "Imaginify",
+    description:
+      "A SaaS app with AI features and a payments and credits system",
+    githubLink: "https://github.com/svashish305/sv_imaginify",
+    liveLink: "https://sv-imaginify.vercel.app",
+  },
   {
     iconUrl: zoomclone,
     theme: "btn-back-orange",
