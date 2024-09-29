@@ -1,4 +1,4 @@
-import { tcs, thoughtflow, nascompany, hyno } from "../assets/images";
+import { tcs, thoughtflow, nascompany, hyno, trilogy } from "../assets/images";
 import {
   contact,
   css,
@@ -113,11 +113,23 @@ export const skills = [
 
 export const experiences = [
   {
+    title: "AI First Software Engineer II",
+    company_name: "Trilogy",
+    icon: trilogy,
+    iconBg: "#383E56",
+    date: "May 2024 - Present",
+    points: [
+      "Achieved a 20% reduction in monthly AWS costs by conducting a thorough analysis of redundant resources",
+      "Enhanced data integrity and recovery processes by deploying AWS Batch jobs, resulting in a 30% reduction in data discrepancy resolution time after DB failovers",
+      "Increased customer support efficiency by 75% through the development of an AI-powered chatbot leveraging LLMs, streamlining responses to common queries"
+    ],
+  },
+  {
     title: "Senior Software Engineer",
     company_name: "Hyno",
     icon: hyno,
     iconBg: "#383E56",
-    date: "Jul 2023 - Present",
+    date: "Jul 2023 - Apr 2024",
     points: [
       "Developed several critical APIs for Forta Health, enhancing system functionality and user interaction",
       "Optimized overlapping database queries, resulting in improved system performance and efficiency",
